@@ -21,7 +21,4 @@ public class Students {
         BirthDay=birthDay;
         MediumPoint=mediumPoint;
     }
-    public String GetGroup(){
-        return Group;
-    }
 }
