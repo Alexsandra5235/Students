@@ -3,6 +3,7 @@ package org.example;
 import java.util.Date;
 
 public class Students {
+
     public String Group;
     public String FullName;
     public Date BirthDay;
@@ -19,5 +20,8 @@ public class Students {
         FullName=fullName;
         BirthDay=birthDay;
         MediumPoint=mediumPoint;
+    }
+    public String GetGroup(){
+        return Group;
     }
 }
