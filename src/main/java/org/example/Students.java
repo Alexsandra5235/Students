@@ -14,4 +14,10 @@ public class Students {
         BirthDay = new Date(1987,06,23);
         MediumPoint = 4.3;
     }
+    public Students(String group,String fullName, Date birthDay,double mediumPoint){
+        Group=group;
+        FullName=fullName;
+        BirthDay=birthDay;
+        MediumPoint=mediumPoint;
+    }
 }
