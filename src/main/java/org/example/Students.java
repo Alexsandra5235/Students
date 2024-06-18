@@ -6,16 +6,16 @@ public class Students {
 
     public String Group;
     public String FullName;
-    public Date BirthDay;
+    public int BirthDay;
     public double MediumPoint;
 
     public Students(){
         Group="ИТб-211";
         FullName="Пупкин Генадий Анатольевич";
-        BirthDay = new Date(1987,06,23);
+        BirthDay = 23;
         MediumPoint = 4.3;
     }
-    public Students(String group,String fullName, Date birthDay,double mediumPoint){
+    public Students(String group,String fullName, int birthDay,double mediumPoint){
         Group=group;
         FullName=fullName;
         BirthDay=birthDay;
